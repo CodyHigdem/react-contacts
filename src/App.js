@@ -16,7 +16,16 @@ class App extends Component {
   render() {
     return (
         <div className="App">
-          <ContactList />
+          <ContactList contacts={[
+            {name: 'tyler'},
+            {name: 'karen'},
+            {name: 'rich'}
+          ]}/>
+          <ContactList contacts={[
+            {name: 'fewer'},
+            {name: 'rrrrkaren'},
+            {name: 'rfereich'}
+          ]}/>
         </div>
     );
   }
